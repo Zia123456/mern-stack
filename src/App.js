@@ -1,11 +1,13 @@
-import './App.css';
+// import Home from './home/Home';
+
+// import Product from './pages/Product';
+import Cart from './pages/Cart';
+// import Register from './pages/Register';
+
+// import ProductList from './home/ProductList';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>hello</h1>
-    </div>
-  );
+  return <Cart />;
 }
 
 export default App;
